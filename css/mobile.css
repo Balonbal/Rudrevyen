@@ -1,0 +1,13 @@
+@media handheld {
+    #slider-parent {
+        height: 80%;
+        width: 100%;
+        font-size: 5%;
+    }
+
+    /*TODO Stuff */
+    
+    .page {
+        height: inherit;
+    }
+}

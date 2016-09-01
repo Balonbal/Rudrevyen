@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/stylesheet.css" type="text/css">
+
+    <link rel="apple-touch-icon" sizes="57x57" href="images/icons/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="images/icons/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="images/icons/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="images/icons/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="images/icons/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="images/icons/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="images/icons/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="images/icons/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/icons/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="images/icons/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="images/icons/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/icons/favicon-16x16.png">
+    <link rel="manifest" href="images/icons/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="images/icons/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <script src="http://code.jquery.com/jquery-1.11.3.min.js" type="text/javascript"></script>
+    <script type="text/javascript" src="scripts/revy.js"></script>
+    <title>Rudrevyen 2016: Game Over</title>
+</head>
+<!--
+   ********      **     ****     **** ********
+  **//////**    ****   /**/**   **/**/**/////
+ **      //    **//**  /**//** ** /**/**
+/**           **  //** /** //***  /**/*******
+/**    ***** **********/**  //*   /**/**////
+//**  ////**/**//////**/**   /    /**/**
+ //******** /**     /**/**        /**/********
+  ////////  //      // //         // ////////
+   *******   **      ** ******** *******
+  **/////** /**     /**/**///// /**////**
+ **     //**/**     /**/**      /**   /**
+/**      /**//**    ** /******* /*******
+/**      /** //**  **  /**////  /**///**
+//**     **   //****   /**      /**  //**
+ //*******     //**    /********/**   //**
+  ///////       //     //////// //     //
+-->
+<body>
+<header>
+    <nav id="menu">
+        <ul>
+            <li><a href="#oppsettninger">Forestillinger</a></li>
+            <li><a href="#grupper">Grupper</a></li>
+            <li><a href="#aktorer">Aktører</a></li>
+            <li><a href="http://rudrevyen.yapsody.com" style="color: orange">Kjøp billetter</a></li>
+        </ul>
+    </nav>
+    <nav id="socialMedia">
+        <ul>
+            <li><a href="https://facebook.com/rudrevyen"><img src="images/icons/FB-f-Logo__blue_50.png"></a></li>
+            <li><a href="https://instagram.com/rudrevyen"><img src="images/icons/instagram-logo.png"></a></li>
+            <li><a href="https://www.youtube.com/channel/UC-J4fsP6k5EIz_1nCiXzKJg"><img src="images/icons/YouTube-social-squircle_red_48px.png"></a></li>
+            <li><a href="#snapchatOverlay"><img src="images/icons/snap-ghost-yellow.png"></a></li>
+        </ul>
+    </nav>
+</header>
+<a name="landing">
+    <div class="page">
+        <section class="header" style="color: #d3d3d3">
+            <h1>Presenterer: Rudrevyen 2016 - Game Over</h1>
+        </section>
+        <p>
+            Hver dag er det noen som taper i livet. Taper en diskusjon, taper i et spill,
+            taper besinnelse, taper makt, taper ære eller taper verdighet. <br/><br/>
+            Det er dette Rudrevyen 2016 handler om. <span style="color: #dc00ea">Å tape.</span>
+        </p>
+        <iframe style="min-width: 480px; min-height: 360px; height: 36vw; width: 64vw;" src="https://www.youtube.com/embed/C0PkkXJzfV4" frameborder="0" allowfullscreen></iframe>
+        <div id="countdown">
+            <h3>Game starts in</h3>
+            <ul style="color: #dc00ea">
+                <li class="countdownLabel">Dager</li>
+                <li class="countdownLabel">Timer</li>
+                <li class="countdownLabel">Minutter</li>
+                <li class="countdownLabel">Sekunder</li>
+            </ul>
+            <ul>
+                <li id="days">00</li>
+                <li id="hours">00</li>
+                <li id="minutes">00</li>
+                <li id="seconds">00</li>
+            </ul>
+        </div>
+    </div>
+</a>
+
+<div class="page">
+    <a name="oppsettninger" class="anchor"></a>
+    <section class="header">
+        <h1>Forestillinger</h1>
+    </section>
+    <p><span style="color: #dc00ea; background-color: rgba(0,0,0,0.2);">Rudrevyen 2016 – GAME OVER</span> spiller 9 forestillinger med muligheter for ekstraforestillinger. Billettene går raskt, så det kan være lurt å være tidlig ute med bestilling. Billetter kan bestilles <a href="">her</a>.</p>
+    <table>
+        <tr>
+            <td align="center"><span style="color: #dc00ea">Dato</span></td>
+            <td><span style="color: #dc00ea">Klokkeslett</span></td>
+        </tr>
+        <tr>
+            <td>Fredag 8. Januar</td>
+            <td>Kl. 19:00</td>
+        </tr>
+        <tr>
+            <td>Lørdag 9. Januar</td>
+            <td>Kl. 19:00</td>
+        </tr>
+        <tr>
+            <td>Søndag 10. Januar</td>
+            <td>Kl. 19:00</td>
+        </tr>
+        <tr>
+            <td>Mandag 11. Januar</td>
+            <td>Kl. 19:00</td>
+        </tr>
+        <tr>
+            <td>Tirsdag 12. Januar</td>
+            <td>Kl. 19:00</td>
+        </tr>
+        <tr>
+            <td>Onsdag 13. Januar</td>
+            <td>Kl. 19:00</td>
+        </tr>
+        <tr>
+            <td>Torsdag 14. Januar</td>
+            <td>Kl. 19:00</td>
+        </tr>
+        <tr>
+            <td>Fredag 15. Januar</td>
+            <td>Kl. 18:00</td>
+        </tr>
+        <tr>
+            <td>Lørdag 16. Januar</td>
+            <td>Kl. 18:00</td>
+        </tr>
+    </table>
+</div>
+<div class="page">
+    <a name="grupper" class="anchor"></a>
+    <section class="header">
+        <h1>Grupper</h1>
+    </section>
+    <p>Dette er de fantastiske undergruppene som har vært med på å gjøre alt dette mulig.</p>
+    <!-- TODO Add all groups -->
+    <div id="slider-parent">
+        <div id="slider-container">
+            <div id="instruktorerSlide" class="slide">
+                <h1>Instruktører</h1>
+                <div class="slideContent">
+                    <img src="images/groups/Instruktorer.jpg">
+                    <p>Insert Text</p>
+                </div>
+                <div class="membersContainer">
+                    <h3>Instrukørene</h3>
+                    <p>Magnus Solhaug Hofgaard<br/>
+                    Emil Olafsson</p>
+                </div>
+            </div>
+            <div id="bandSlide" class="slide">
+                <h1>Band</h1>
+                <div class="slideContent">
+                    <img src="images/groups/Band.jpg">
+                    <p>Vi skulle også regne ut friksjonstallet. For å få det, tok vi tangensen til vinkelen når klossen skled med konstant fart. Da fikk vi µ=tan⁡〖(6,7)= 0,1〗 2. <br/><br/>
+                        Det er noe usikkerhet i målingene våre. Mål og opplesing av høyde og lengde kan være ± én centimeter fra de faktiske målene. Klossens glideevne ble tatt med øyemål, så det er heller ikke umulig at vinkelen vår var ± 0,2° feil.<br/><br/>
+                        Likevel kan vi se at hypotesene våre ble verifisert. Når skråplanets vinkel er større enn der den får konstant fart, vil den ha en positiv akselerasjon. På den andre siden ser vi at når vinkelen er mindre, vil klossen ha en negativ akselerasjon, og til slutt stoppe helt.<br/><br/>
+                        Vi har sett på friksjonen på et skråplan. Resultatene våre tyder på at klossen sklir når graden på skråplanet er mer enn 6,7 grader, og stopper når den er mindre. Vi fant også ut at friksjonstallet var cirka 0,12.
+                    </p>
+                </div>
+                <div class="membersContainer">
+                    <h3>Sjefer</h3>
+                    <p>Benjamin Mortensen <span class="splitter">|</span> 
+                        Jonas Veland <span class="splitter">|</span> 
+                        Per Silnes Tandberg</p>
+                    <h3>Medlemmer</h3>
+                    <p>Lars Fauchald Hartmann <span class="splitter">|</span> 
+                        Jonas Verlo <span class="splitter">|</span> 
+                        Nora Elise Hjerpsted <span class="splitter">|</span> 
+                        Vilde Linnea Schøyen Lervik <span class="splitter">|</span> 
+                        Magnus Hexeberg <span class="splitter">|</span> 
+                        Ulrik Løvig Svabø <span class="splitter">|</span> 
+                        Kaja Graffer <span class="splitter">|</span> 
+                        Marius Nes Fredheim <span class="splitter">|</span> 
+                        Karoline Grøttum <span class="splitter">|</span> 
+                        Theodor Christian Dalseth <span class="splitter">|</span> 
+                        Alekos Konstantinos Kourmantzis <span class="splitter">|</span> 
+                        Markus Kaardal <span class="splitter">|</span>
+                        Askil Okkenhaug</p>
+                </div>
+            </div>
+            <div id="danserSlide" class="slide">
+                <h1>Dansere</h1>
+                <div class="slideContent">
+                    <img src="images/groups/Dansere.jpg">
+                    <p>Noen andre burde skrive det som skal være her</p>
+                </div>
+                <div class="membersContainer">
+                    <h3>Sjefer</h3>
+                    <p>Pernille Løvdal Nansen</p>
+                    <h3>Medlemmer</h3>
+                    <p>Julia Brovold <span class="splitter">|</span> 
+                        Ida Victoria Hauge <span class="splitter">|</span> 
+                        Eline Kaelin Melkild <span class="splitter">|</span> 
+                        Thea Farstad Åse</p>
+                </div>
+            </div>
+            <div id="festSlide" class="slide">
+                <h1>Fest</h1>
+                <div class="slideContent">
+                    <img src="images/groups/Fest.jpg">
+                    <p>Eksempeltekst til å beskrive sagt eksempelgruppe, her kan alle gruppene skrive litt om seg selv hvis man har lyst til det. takk</p>
+                </div>
+                <div class="membersContainer">
+                    <h3>Sjefer</h3>
+                    <p>Gabriella Persson</p>
+                    <h3>Medlemmer</h3>
+                    <p>Simen Gonder <span class="splitter">|</span>
+                        Sigurd Darre Bersvendsen <span class="splitter">|</span>
+                        Ludvig Bjarkli Verbeke <span class="splitter">|</span>
+                        Dag Resch <span class="splitter">|</span>
+                        Marianne Dæhlie Clem <span class="splitter">|</span>
+                        Philip Dementiev</p>
+                </div>
+            </div>
+            <div id="kapellSlide" class="slide">
+                <h1>Kapellmesterene</h1>
+                <div class="slideContent">
+                    <img src="images/groups/Kapell.jpg">
+                    <p>Jeg vil bare vise min fantastiske slider ting</p>
+                </div>
+                <div class="membersContainer">
+                    <h3>Sjefer</h3>
+                    <p>Benjamin Mortensen <br/>
+                    Jonas Veland<br/>
+                    Per Silnes Tandberg</p>
+                </div>
+            </div>
+            <div id="KKSlide" class="slide">
+                <h1>Kokk og Kos</h1>
+                <div class="slideContent">
+                    <img src="images/groups/KK.jpg">
+                    <p>Noen andre burde skrive det som skal være her</p>
+                </div>
+                <div class="membersContainer">
+                    <h3>Sjefer</h3>
+                    <p>Henriette Marie Lund <span class="splitter">|</span>
+                        Aurora Falk Hersvik</p>
+                    <h3>Medlemmer</h3>
+                    <p>Adriane Violetta Strand Simon <span class="splitter">|</span>
+                        Pernille Vik Pettersen <span class="splitter">|</span>
+                        Ivar Høstmark Solhaug <span class="splitter">|</span>
+                        Helene Borolien Natvik <span class="splitter">|</span>
+                        Lars Angel Høydahl Ohme <span class="splitter">|</span>
+                        Karin Wang Brustad <span class="splitter">|</span>
+                        Nora Marie Ruud-Nerø <span class="splitter">|</span>
+                        Amanda Felicia C Edenholm <span class="splitter">|</span>
+                        Rachel Anna Lossius Enstad  <span class="splitter">|</span>
+                        Erling Fladvad <span class="splitter">|</span>
+                        Nina Negar Mahdavi <span class="splitter">|</span>
+                        Alexandra Bråss <span class="splitter">|</span>
+                        Tonje Manger <span class="splitter">|</span>
+                        Nathalie Fristad <span class="splitter">|</span>
+                        Ragnhild Trovik Hasle <span class="splitter">|</span>
+                        Ingrid Aukner <span class="splitter">|</span>
+                        Christina Amble Eriksen <span class="splitter">|</span>
+                        Elise Welde <span class="splitter">|</span>
+                        Gustav Mathias skaaret <span class="splitter">|</span>
+                        Oskar Okkelmo <span class="splitter">|</span>
+                        Live Pettersdatter Melkild <span class="splitter">|</span>
+                        Jesper Gjerde Åsenden <span class="splitter">|</span>
+                        Oda Borge Sundby</p>
+                </div>
+            </div>
+            <div id="korSlide" class="slide">
+                <h1>Kor</h1>
+                <div class="slideContent">
+                    <img src="images/groups/Kor.jpg">
+                    <p>Noen andre burde skrive det som skal være her</p>
+                </div>
+                <div class="membersContainer">
+                    <h3>Sjefer</h3>
+                    <p>Johan Christian Torsvik Bruun</p>
+                    <h3>Medlemmer</h3>
+                    <p>Lise Lotte Guriby <span class="splitter">|</span>
+                        Petter Farstad Nestaas <span class="splitter">|</span>
+                        Even Brodwall <span class="splitter">|</span>
+                        Hedda Sofie Okstad Ekeberg <span class="splitter">|</span>
+                        Mattis Holthe Møll Austrheim <span class="splitter">|</span>
+                        Hanna Thrastardottir <span class="splitter">|</span>
+                        Marta Gausereide Corral</p>
+                </div>
+            </div>
+            <div id="kostymeSlide" class="slide">
+                <h1>Kostyme</h1>
+                <div class="slideContent">
+                    <img src="images/groups/Kostyme.jpg">
+                    <p>Noen andre burde skrive det som skal være her</p>
+                </div>
+                <div class="membersContainer">
+                    <h3>Sjefer</h3>
+                    <p>Kristiane Ræder Kverstein <span class="splitter">|</span>
+                        Christina Grendar</p>
+                    <h3>Medlemmer</h3>
+                    <p>Henrik Habberstad <span class="splitter">|</span>
+                        Jane Marie Breibybråten <span class="splitter">|</span>
+                        Clara Marie Vigeland <span class="splitter">|</span>
+                        Maja Ravan Goksør <span class="splitter">|</span>
+                        Synne Elise Johnsrud <span class="splitter">|</span>
+                        Cathrine Heiste Sørensen <span class="splitter">|</span>
+                        Lotte Victoria Jaskiewicz Grytten <span class="splitter">|</span>
+                        Emilie Tønseth Haugo <span class="splitter">|</span>
+                        Ingeborg Bolstad <span class="splitter">|</span>
+                        Oda Marie Børresen <span class="splitter">|</span>
+                        Aurora Aven</p>
+                </div>
+            </div>
+            <div id="PRSlide" class="slide">
+                <h1>PR</h1>
+                <div class="slideContent">
+                    <img src="images/groups/PR.jpg">
+                    <p>Noen andre burde skrive det som skal være her</p>
+                </div>
+                <div class="membersContainer">
+                    <h3>Sjefer</h3>
+                    <p>Aleksandra Bøe Jakobsen</p>
+                    <h3>Medlemmer</h3>
+                    <p>Kaja Bjørnstadjordet <span class="splitter">|</span>
+                        Embla Brun <span class="splitter">|</span>
+                        Anine Bekkely- Hermansen <span class="splitter">|</span>
+                        Victoria Therese Selle <span class="splitter">|</span>
+                        Maja Fjellandsbø</p>
+                </div>
+            </div>
+            <div id="rekvisittSlide" class="slide">
+                <h1>Rekvisitt</h1>
+                <div class="slideContent">
+                    <img src="images/groups/Rekvisitt.jpg">
+                    <p>Noen andre burde skrive det som skal være her</p>
+                </div>
+                <div class="membersContainer">
+                    <h3>Sjefer</h3>
+                    <p>Vilde Benedikte Dalstø <span class="splitter">|</span>
+                        Kristin Skjærseth</p>
+                    <h3>Medlemmer</h3>
+                    <p>Simon Gaarde Hansen <span class="splitter">|</span>
+                        Amanda Elise Kollerud Nossen <span class="splitter">|</span>
+                        Maria Elpida Berg Stojcevska <span class="splitter">|</span>
+                        Josefine Otara Berg Sandmæl <span class="splitter">|</span>
+                        Ingrid Marie Brandt <span class="splitter">|</span>
+                        Lise Haug Nilsen <span class="splitter">|</span>
+                        Katarina Josefsen <span class="splitter">|</span>
+                        Mikael Barr Kongsteien <span class="splitter">|</span>
+                        Øystein Funderud <span class="splitter">|</span>
+                        Carl August Schmidt <span class="splitter">|</span>
+                        Hanna Kiær Engelschiøn <span class="splitter">|</span>
+                        Beate Røgler <span class="splitter">|</span>
+                        Eirikur Thrastarson <span class="splitter">|</span>
+                        Celine Berge Foyn <span class="splitter">|</span>
+                        Bianca Eline Sandvik <span class="splitter">|</span>
+                        Maria Julseth Frantzen</p>
+                </div>
+            </div>
+            <div id="sceneSlide" class="slide">
+                <h1>Scene</h1>
+                <div class="slideContent">
+                    <img src="images/groups/Scene.jpg">
+                    <p>Noen andre burde skrive det som skal være her</p>
+                </div>
+                <div class="membersContainer">
+                    <h3>Sjefer</h3>
+                    <p>Emil Thor Gretarsson</p>
+                    <h3>Medlemmer</h3>
+                    <p>Sophie Schou <span class="splitter">|</span>
+                        Aasta Kyvik <span class="splitter">|</span>
+                        Astrid Tryggestad Sevre <span class="splitter">|</span>
+                        Maria Daniela Reyes Holmsen <span class="splitter">|</span>
+                        Ida Kristina Romskaug <span class="splitter">|</span>
+                        Stina Grønbeck Karlsen <span class="splitter">|</span>
+                        Jakob Aleksander Gunby <span class="splitter">|</span>
+                        Marlen Jarholt <span class="splitter">|</span>
+                        Kari Feldberg Bakken <span class="splitter">|</span>
+                        Hedda Aaserudseter Nystrøm</p>
+                </div>
+            </div>
+            <div id="sponsorSlide" class="slide">
+                <h1>Sponsor</h1>
+                <div class="slideContent">
+                    <img src="images/groups/Sponsor.jpg">
+                    <p>Noen andre burde skrive det som skal være her</p>
+                </div>
+                <div class="membersContainer">
+                    <h3>Sjefer</h3>
+                    <p>Eira Sofie Tvedten</p>
+                    <h3>Medlemmer</h3>
+                    <p>Aksel Oldeide <span class="splitter">|</span>
+                        Simen Tobias Skaar Simenstad <span class="splitter">|</span>
+                        Ingvild Halbo Aspelund <span class="splitter">|</span>
+                        Lea Sine Andersen</p>
+                </div>
+            </div>
+            <div id="teknikkSlide" class="slide">
+                <h1>Teknikk</h1>
+                <div class="slideContent">
+                    <img src="images/groups/Teknikk.jpg">
+                    <p>Noen andre burde skrive det som skal være her</p>
+                </div>
+                <div class="membersContainer">
+                    <h3>Sjefer</h3>
+                    <p>Håvard Skåra Mellbye <span class="splitter">|</span>
+                        Olav Bech Bråten</p>
+                    <h3>Medlemmer</h3>
+                    <p>Brage Mekjan Fauchald <span class="splitter">|</span>
+                        Fredrik Hagland <span class="splitter">|</span>
+                        Henrik Sæbø <span class="splitter">|</span>
+                        Johan Høiness <span class="splitter">|</span>
+                        Jørgen Dreyer <span class="splitter">|</span>
+                        Lars Vegard Myhre <span class="splitter">|</span>
+                        Mathias Augustin Slaatten Harnes <span class="splitter">|</span>
+                        Sara Løvli Nielsen <span class="splitter">|</span>
+                        Stian Ytterstad Sannerud <span class="splitter">|</span>
+                        Svein Arne Drage Løkken <span class="splitter">|</span>
+                        Trym Trudvang</p>
+                </div>
+            </div>
+            <div id="sjefSlide" class="slide">
+                <h1>Revysjefene</h1>
+                <div class="slideContent">
+                    <img src="images/groups/Sjefer.jpg">
+                    <p>Noen andre burde skrive det som skal være her</p>
+                </div>
+                <div class="membersContainer">
+                    <h3>Revysjefer</h3>
+                    <p>Jon Todal Sæbø <br/> Sverre Skjauff <br/> Vilde Ruud</p>
+                </div>
+            </div>
+        </div>
+        <a href="javascript:void(0)" onclick="previousSlide()" id="previousSlide">&lt;&lt; Forrige Gruppe</a> <a href="javascript:void(0)" onclick="nextSlide()" id="nextSlide">Neste Gruppe &gt;&gt;</a>
+    </div>
+</div>
+<div class="page" style="min-height: 100vh; height: inherit;">
+    <a name="aktorer" class="anchor"></a>
+    <section class="header">
+        <h1>Aktører</h1>
+    </section>
+    <div id="actorContainer">
+        <div id="actorInfo">
+            <!--<img id="actorImage" src="images/testImage1.png">-->
+            <h1 id="actorName">{name}</h1>
+            Selvironi
+            <div class="meter">
+                <span style="width: 90%;" id="ironyMeter"></span>
+            </div>
+            Snillhet
+            <div class="meter">
+                <span style="width: 80%" id="niceMeter"></span>
+            </div>
+            Treffsikkerhet
+            <div class="meter">
+                <span style="width: 60%" id="accuracyMeter"></span>
+            </div>
+            Danseferdigheter
+            <div class="meter">
+                <span style="width: 50%" id="danceMeter"></span>
+            </div>
+            <h3>Sist du gikk game over:</h3>
+            <p id="actorText">{text}</p>
+        </div>
+    </div>
+    <div id="connector"></div>
+    <div id="actorReel">
+        <ul>
+            <li><a href="javascript:void(0);" onclick="showActor(0)"><img src="images/actors/Annvei-Square.jpg" id="actor0"></a></li>
+            <li><a href="javascript:void(0);" onclick="showActor(1)"><img src="images/actors/Halvor-Square.jpg" id="actor1"></a></li>
+            <li><a href="javascript:void(0);" onclick="showActor(2)"><img src="images/actors/Julie-Square.jpg" id="actor2"></a></li>
+            <li><a href="javascript:void(0);" onclick="showActor(3)"><img src="images/actors/Mathilde-Square.jpg" id="actor3"></a></li>
+            <li><a href="javascript:void(0);" onclick="showActor(4)"><img src="images/actors/Jonathan-Square.jpg" id="actor4"></a></li>
+            <li><a href="javascript:void(0);" onclick="showActor(5)"><img src="images/actors/Margrete-Square.jpg" id="actor5"></a></li>
+            <li><a href="javascript:void(0);" onclick="showActor(6)"><img src="images/actors/Fredrik-Square.jpg" id="actor6"></a></li>
+            <li><a href="javascript:void(0);" onclick="showActor(7)"><img src="images/actors/Una-Square.jpg" id="actor7"></a></li>
+            <li><a href="javascript:void(0);" onclick="showActor(8)"><img src="images/actors/Havard-Square.jpg" id="actor8"></a></li>
+        </ul>
+    </div>
+</div>
+<footer>Copyright © <script type="text/javascript">document.write(new Date().getFullYear())</script> Rudrevyen<br/></footer>
+<a href="#cl">
+    <div id="snapchatOverlay">
+        <img src="images/78hse9z2.bmp"> <br/>
+        <p>Trykk hvor som helst for å lukke</p>
+    </div>
+</a>
+</body>
+</html>
